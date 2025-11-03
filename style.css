@@ -318,6 +318,9 @@
         .negative-impact .impact-image img {
             border-radius: 50%;
         }
+        .positive-impact .impact-image img {
+            border-radius: 50%;
+        }
 
         /* Reiteration Section */
         .reiteration {
@@ -420,3 +423,4 @@
                 order: 0;
             }
         }
+
