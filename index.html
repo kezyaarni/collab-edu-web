@@ -11,18 +11,24 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <div class="logo">ChildEducation</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#thesis">Thesis</a></li>
-                <li><a href="#arguments">Arguments</a></li>
-                <li><a href="#impact">Impact</a></li>
-                <li><a href="#reiteration">Reiteration</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo">ChildEducation</a>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x'id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:0;">Home</a>
+            <a href="#thesis" style="--i:1;">Thesis</a>
+            <a href="#arguments" style="--i:2;">Arguments</a>
+            <a href="#impact" style="--i:3;">Impact</a>
+            <a href="#reiteration" style="--i:4;">Reiteration</a>
         </nav>
     </header>
+       <br>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
@@ -31,7 +37,7 @@
                 <h3>Welcome!</h3>
                 <h1>The Benefits Of <span class="highlight">early Childhood education</span></h1>
                 <p>Early childhood covers a child's life, from birth to 8 years.</p>
-                <button class="cta-button">Learn More</button>
+                <a href="https://www.rockstaracademy.com/blog/what-is-early-childhood-education-and-its-benefit"><button class="cta-button">Learn More</button></a>
             </div>
             <div class="hero-image">
                 <img src="11.jpg" alt="Teacher with children">
@@ -169,7 +175,7 @@
                     <img src="6.jpg" alt="Gallery 8">
                 </div>
                 <div class="gallery-item">
-                    <img src="7.jpg" alt="Gallery 9">
+                    <img src="2.jpg" alt="Gallery 9">
                 </div>
                 <div class="gallery-item">
                     <img src="8.jpg" alt="Gallery 10">
